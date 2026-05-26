@@ -1,0 +1,16 @@
+{
+  "type": "mcp-server",
+  "packageName": "intuitek-yield-intelligence-mcp",
+  "name": "YIELD INTELLIGENCE",
+  "description": "Passive income opportunity analysis with live US Treasury rates, portfolio yield calculator, and AI-powered income optimization. Tools: analyze_yield_opportunities, optimize_income_portfolio.",
+  "url": "https://github.com/thebrierfox/intuitek-ace",
+  "runtime": "python",
+  "license": "MIT",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.intuitek.ai/yield/mcp"
+    }
+  ]
+}
